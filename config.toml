@@ -1,8 +1,8 @@
-baseurl = "https://ventrisco.github.io/site/"
+baseurl = "https://ventrisco.github.io"
 languageCode = "en-us"
 title = "Ventris & Co"
 theme = "hugo-future-imperfect"
-preserveTaxonomyNames = true
+preserveTaxonomyNames = false
 paginate = 10
 disqusShortname = "ventrisco"
 googleAnalytics = ""
