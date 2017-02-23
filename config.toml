@@ -1,4 +1,4 @@
-baseurl = "https://ventrisco.github.io/blog/"
+baseurl = "https://ventrisco.github.io/site/"
 languageCode = "en-us"
 title = "Ventris & Co"
 theme = "hugo-future-imperfect"
