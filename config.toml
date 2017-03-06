@@ -1,4 +1,4 @@
-baseurl = "https://ventrisco.github.io"
+baseurl = "https://ventrisco.github.io/site/"
 languageCode = "en-us"
 title = "Ventris & Co"
 theme = "hugo-future-imperfect"
@@ -6,6 +6,7 @@ preserveTaxonomyNames = false
 paginate = 10
 disqusShortname = "ventrisco"
 googleAnalytics = ""
+# canonifyurls = "true"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
