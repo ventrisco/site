@@ -1,12 +1,12 @@
 baseurl = "https://ventrisco.github.io/site/"
 languageCode = "en-us"
 title = "Ventris & Co"
-theme = "hugo-future-imperfect"
+theme = "ghostwriter"
 preserveTaxonomyNames = false
 paginate = 10
 disqusShortname = "ventrisco"
 googleAnalytics = ""
-# canonifyurls = "true"
+canonifyurls = "true"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
@@ -18,6 +18,11 @@ googleAnalytics = ""
     socialAppearAtBottom = true
     # set this to the section name if section is not post
     viewMorePostLink     = "/blog/"
+
+    email = "m@ventris.co"
+    github = "https://github.com/ventrisco"
+
+
 
 # Optional Params
     categoriesByCount    = true
