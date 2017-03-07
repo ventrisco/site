@@ -3,7 +3,7 @@ date = "2017-02-22T18:50:26-08:00"
 featured = ""
 linktitle = ""
 title = "data management iii database"
-author = ""
+author = "M. Ventris"
 type = "post"
 featuredalt = ""
 featuredpath = ""
@@ -60,4 +60,4 @@ historical_stock_data=# select * from yahoo_data limit 10;
 
 ### CONCLUSION
 
-Although getting data from different service providers will require you to write different adapters and probably in a different programming language, the basic premise will always be the same: fetch, parse, upload. You could just download a slug of data every time you need it but I found that maintaining the price data in a database makes it easier to deal with when backtesting and it facilitates working with larger data sets. 
+Although getting data from different service providers will require you to write different adapters and probably in a different programming language, the basic premise will always be the same: fetch, parse, upload. You could just download a slug of data every time you need it but I found that maintaining the price data in a database makes it easier to deal with when backtesting and it facilitates working with larger data sets.

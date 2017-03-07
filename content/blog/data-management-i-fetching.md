@@ -8,7 +8,7 @@ featured = ""
 featuredpath = ""
 title = "data management i fetching"
 categories = []
-author = ""
+author = "M. Ventris"
 
 +++
 
