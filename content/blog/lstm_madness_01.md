@@ -15,7 +15,7 @@ linktitle = ""
 
 Look at the previous posts about how to get data from Yahoo and use that to create a script to get the historical data from the XLF and each of its components. Don’t know the XLF components by heart? You can find them right here.
 
-If that’s too much for you, you can just run `python main.py` in `/get_yahoo_data` of this repo. You’re going to have to run it twice, once for the components and once for just the XLF price series. Save them to different buffers because we’re going to copy them to different tables.
+If that’s too much for you, you can just run `python main.py` in `/get_yahoo_data` of this [repo](https://github.com/ventrisco/lstm-madness). You’re going to have to run it twice, once for the components and once for just the XLF price series. Save them to different buffers because we’re going to copy them to different tables.
 
 # In the beginning
 

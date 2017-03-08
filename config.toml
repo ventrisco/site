@@ -1,4 +1,4 @@
-baseurl = "https://ventrisco.github.io/site/"
+baseurl = "https://ventrisco.github.io/"
 languageCode = "en-us"
 title = "Ventris & Co"
 theme = "ghostwriter"
@@ -8,20 +8,18 @@ disqusShortname = "ventrisco"
 googleAnalytics = ""
 canonifyurls = "true"
 
+[Author]
+    name = "M. Ventris"
+
+[Taxonomies]
+    tag = "tags"
+
 [params]
     # Sets the meta tag description, usually reserved for the main page
     description          = "Hacking Quantiative Finance"
-    # This will appear on the top left of the navigation bar
-    navbarTitle          = "Ventris & Co"
-    # Social media buttons that appear on the sidebar
-    socialAppearAtTop    = true
-    socialAppearAtBottom = true
-    # set this to the section name if section is not post
-    viewMorePostLink     = "/blog/"
-
+    headline = "Ventris & Co"
     email = "m@ventris.co"
     github = "https://github.com/ventrisco"
-
 
 
 # parms.intro will appear on the sidebar
@@ -29,45 +27,8 @@ canonifyurls = "true"
 [params.intro]
     header    = "Ventris & Co"
 
-    paragraph = "Hacking Quantitative Finance"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
 
 
-
-# Adjust the amount of recent posts on the sidebar.
-# This is optional. The default value 5 will be used
-[params.postAmount]
-    sidebar = 5
-
-
-# Insert your username and the icon will apear on the page as long as
-# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
-# The social media icons will appear on the sidebar
-[social]
-    github          = "ventrisco"
-    bitbucket       = ""
-    jsfiddle        = ""
-    codepen         = ""
-    foursquare      = ""
-    dribbble        = ""
-    deviantart      = ""
-    behance         = ""
-    flickr          = ""
-    instagram       = ""
-    youtube         = ""
-    vimeo           = ""
-    vine            = ""
-    medium          = ""
-    wordpress       = ""
-    tumblr          = ""
-    xing            = ""
-    linkedin        = ""
-    slideshare      = ""
-    stackoverflow   = ""
-    reddit          = ""
-    pinterest       = ""
-    googleplus      = ""
-    facebook        = ""
-    facebook_admin  = ""
-    twitter_domain  = ""
-    twitter         = ""
-    email           = "m@ventris.co"
