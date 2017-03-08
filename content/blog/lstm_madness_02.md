@@ -20,12 +20,12 @@ For our first neural network, we'll try to answer the most obvious question:
 
 Let's break this down to actionable tasks:
 
-1. We'll need to get today's returns for our x values.
-2. We'll need to get the next returns for our y values.
-3. We'll need to shape the data for Keras
-4. We'll need to setup, compile and fit the model.
-5. We can then use the model to make predictions on our existing data.
-6. We'll plot the predicted returns to the actual returns.
+1. Get today's returns for our x values.
+2. Get the next returns for our y values.
+3. Shape the data for Keras
+4. Setup, compile and fit the model.
+5. Make predictions on our existing data.
+6. Plot the predicted returns to the actual returns.
 
 We're going to ignore applying our model to test data while we try to figure out what all the levers do in the neural network cockpit.
 

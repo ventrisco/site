@@ -5,7 +5,7 @@ theme = "ghostwriter"
 preserveTaxonomyNames = false
 paginate = 10
 disqusShortname = "ventrisco"
-googleAnalytics = ""
+googleAnalytics = "UA-93157727-1"
 canonifyurls = "true"
 
 [Author]
@@ -16,8 +16,8 @@ canonifyurls = "true"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "Hacking Quantiative Finance"
     headline = "Ventris & Co"
+    description = "Hacking Quantiative Finance"
     email = "m@ventris.co"
     github = "https://github.com/ventrisco"
 
