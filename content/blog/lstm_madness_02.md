@@ -199,5 +199,7 @@ train_x = numpy.reshape(stage_train_x, (stage_train_x.shape[0], 1, stage_train_x
 test_x = numpy.reshape(stage_test_x, (stage_test_x.shape[0], 1, stage_test_x.shape[1]))
 ```
 
-We only need to do this for the X values. Now that we have the right shape, we can finally start building our model. 
+We only need to do this for the X values.
+
+Now that we have the right shape, we can finally start building our model.
 

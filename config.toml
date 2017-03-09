@@ -17,7 +17,7 @@ canonifyurls = "true"
 [params]
     # Sets the meta tag description, usually reserved for the main page
     headline = "Ventris & Co"
-    description = "Hacking Quantiative Finance"
+    description = "Hacking Quantitative Finance"
     email = "m@ventris.co"
     github = "https://github.com/ventrisco"
 
